@@ -1,0 +1,1152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    position: relative;
+}
+
+.container >div:nth-child(1) img{
+    position: relative;
+
+}
+
+.container >div:nth-child(2) img{
+    position: absolute;
+    top: -1%;
+    margin-left: 59%;  
+}
+
+.container >div:nth-child(3) img{
+    position: absolute;
+    top: 2%;
+    margin-left: 2%;
+    width: 14%;
+}
+
+.border-one {
+    display: none;
+}
+
+.container >div:nth-child(4) img{
+    position: absolute;
+    top: 4%;
+    margin-left: 84%;
+    width: 10%;
+}
+
+.container >div:nth-child(5) img{
+    position: absolute;
+    top: 2%;
+    margin-left: 94.5%;
+    width: 2%;
+}
+
+.container >div:nth-child(6) img{
+    position: absolute;
+    top: 10%;
+    margin-left: 63.5%;
+    width: 33%;
+}
+
+.container >div:nth-child(7) img{
+    position: absolute;
+    top: 18%;
+    margin-left: 50%;
+    width: 37%;
+}
+
+.container >div:nth-child(8) img{
+    position: absolute;
+    top: 21%;
+    width: 3%;
+    margin-left: 4%;
+}
+
+.container >div:nth-child(9) img{
+    position: absolute;
+    top: 22%;
+    width: 30%;
+    margin-left: 8%;
+}
+
+.container >div:nth-child(10) img{
+    position: absolute;
+    top: 36%;
+    width: 40%;
+    margin-left: 4%;
+}
+
+.container >div:nth-child(11) img{
+    position: absolute;
+    top: 22%;
+    width: 5%;
+    margin-left: 47%;
+}
+
+.container >div:nth-child(12) img{
+    position: absolute;
+    top: 51%;
+    width: 30%;
+    margin-left: 8%;
+}
+
+.container >div:nth-child(13) img{
+    position: absolute;
+    top: 57%;
+    margin-left: 7%;
+    width: 32%;
+}
+
+.container >div:nth-child(14) img{
+    position: absolute;
+    bottom: 34%;
+    margin-left: 14%;
+}
+
+.container >div:nth-child(15) img{
+    position: absolute;
+    bottom: 34%;
+    margin-left: 25%;
+}
+
+.container >div:nth-child(16) img{
+    position: absolute;
+    bottom: 16%;
+    width: 3%;
+    margin-left: 49%;
+}
+
+.container >div:nth-child(17) img{
+    position: absolute;
+    bottom: 17%;
+    margin-left: 90%;
+    width: 5%;
+}
+
+.container >div:nth-child(18){
+    margin-left: -3%;
+}
+
+.container >div:nth-child(18) button{
+    margin-left: 19%;
+    position: absolute;
+    bottom: 20%;
+    background-color: red;
+    padding: 1%;
+    width: 15%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container >div:nth-child(19) img{
+    position: absolute;
+    bottom: -17%;
+    margin-left: -10%;
+}
+
+#content{
+    margin-top: 10%;
+}
+
+#contain >div:nth-child(1) img{
+    width: 100%;
+}
+
+#contain-image{
+    margin-top: -22%;
+    padding: 5%;
+    text-align: center;
+}
+
+#contain-image .image-one{
+    width: 30%;
+}
+
+#contain-image .image-one >div:nth-child(2){
+    margin-top: 5%;
+    font-weight: 800;
+}
+
+#contain-image .image-one >div:nth-child(3){
+    margin-top: 4%;
+}
+
+#contain-image .image-one >div:nth-child(4){
+    margin-top: 7%;
+}
+
+#contain-image .image-one >div:nth-child(4) button{
+    width: 29%;
+    padding: 2%;
+    background-color: yellow;
+    border: none;
+}
+
+#contain-image .image-two{
+    width: 30%;
+}
+
+#contain-image .image-two >div:nth-child(2){
+    margin-top: 5%;
+    font-weight: 800;
+}
+
+#contain-image .image-two >div:nth-child(3){
+    margin-top: 4%;
+}
+
+#contain-image .image-two >div:nth-child(4){
+    margin-top: 7%;
+}
+
+#contain-image .image-two >div:nth-child(4) button{
+    width: 29%;
+    padding: 2%;
+    background-color: yellow;
+    border: none;
+    margin-top: 1%;
+}
+
+#contain-image .image-three{
+    width: 30%;
+}
+
+#contain-image .image-three >div:nth-child(2){
+    margin-top: 5%;
+    font-weight: 800;
+}
+
+#contain-image .image-three >div:nth-child(3){
+    margin-top: 4%;
+}
+
+#contain-image .image-three >div:nth-child(4){
+    margin-top: 7%;
+}
+
+#contain-image .image-three >div:nth-child(4) button{
+    width: 29%;
+    padding: 2%;
+    background-color: yellow;
+    border: none;
+    margin-top: 1%;
+}
+
+#content-one .content-header{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#content-one .content-header >div:nth-child(1){
+    font-weight: 600;
+}
+
+#content-one .content-header >div:nth-child(2){
+    margin-top: 1%;
+}
+
+#content-one .content-header >div:nth-child(3){
+    margin-top: 1%;
+    width: 50%;
+    margin-left: 26%;
+}
+
+#content-one .border{
+    margin-top: 4%;
+}
+
+#content-one .border >div:nth-child(2){
+    margin-top: 3%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading >div:nth-child(1){
+    text-align: center;
+    margin-top: 5%;
+}
+
+.heading >div:nth-child(1) img{
+    width: 24%;
+}
+
+.heading >div:nth-child(2){
+    width:54% ;
+    margin-left: 22%;
+    margin-top: 1%;
+}
+
+#contain >div:nth-child(1){
+    margin-top: 8%;
+}
+
+#content-two{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#content-two .box >div:nth-child(2){
+    margin-top: -24%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 3%
+}
+
+#content-two .boxes{
+    margin-left: 53%;
+    margin-top: -23.2%;
+}
+
+#content-two .box-one >div:nth-child(2){
+    margin-top: -29%;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-left: 6%;
+}
+
+#content-two .box-two{
+    margin-top: 15%;
+}
+
+#content-two .box-two >div:nth-child(2){
+    margin-top: -27%;
+    color: white;
+    font-size: 2rem;
+    margin-left: 6%;
+    font-weight: 600;
+}
+
+#content-three .content-three-heading{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.content-three-heading >div:nth-child(2){
+    margin-top: 2%;
+}
+
+#imp{
+    margin-top: 3%;
+    margin-left: 28%;
+    margin-right: 36%;
+}
+
+#imp .names div input{
+    padding: 8%;
+    width: 184%;
+    background-color: orange;
+    border: none;
+}
+
+#imp .names >div:nth-child(2){
+    margin-top: 8%;
+}
+
+#imp .names >div:nth-child(3){
+    margin-top: 8%;
+}
+
+#imp .email div input{
+    padding: 8%;
+    width: 184%;
+    background-color: orange;
+    border: none;
+}
+
+#imp .email >div:nth-child(2){
+    margin-top: 8%;
+}
+
+#imp .email >div:nth-child(3){
+    margin-top: 7%;
+    width: 109%;
+    padding:0%;
+}
+
+#imp .email >div:nth-child(3) input{
+    height: 45px;
+    background-color: yellow;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#footer .footer-bg{
+    margin-top: 8%;
+}
+
+#footer .footer-bg img{
+    width: 100%;
+}
+
+.footer-text{
+    margin-top: -26%;
+    color: white;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.footer-text >div:nth-child(1){
+    width: 76%;
+}
+
+.footer-text >div:nth-child(2){
+    margin-top: 21%;
+}
+
+.location img{
+    position: absolute;
+    margin-left: 63%;
+    margin-top: -15%;
+    width: 1.5%;
+}
+
+.location-text{
+    color: white;
+    margin-left: 66%;
+    margin-top: -14.7%;
+}
+
+.mail img{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 63.1%;
+    width: 1.5%;
+}
+
+.mail-text {
+    color: white;
+    margin-left: 66%;
+    margin-top: 1%;
+}
+
+#footer .row{
+    display: flex;
+    margin-left: 82%;
+    margin-right: 8%;
+    margin-top: 9%;
+    flex-wrap: wrap;
+}
+
+@media (min-width:2560px){
+    #contain-image .image-one >div:nth-child(4) button{
+        padding: 2%;
+        font-size: 2rem;
+        width: 40%;
+        font-weight: 600;
+    }
+    #contain-image .image-two >div:nth-child(4) button{
+        padding: 2%;
+        font-size: 2rem;
+        width: 40%;
+        font-weight: 600;
+    }
+    #contain-image .image-three >div:nth-child(4) button{
+        padding: 2%;
+        font-size: 2rem;
+        width: 40%;
+        font-weight: 600;
+    }
+    #contain-image {
+        margin-top: -17%;
+        padding: 5%;
+        text-align: center;
+    }
+    .container >div:nth-child(1) img{
+        width: 100%;
+    }
+    .container >div:nth-child(2) img{
+        margin-left: 57%;
+        margin-top: -0.9%;
+        height: 100.7%;
+    }
+    .container >div:nth-child(19) img{
+        margin-left: -5%;
+        position: absolute;
+        bottom: -9%;
+    }
+    .container >div:nth-child(14) img{
+        width: 10%;
+        margin-left: 13%;
+    }
+    .container >div:nth-child(15) img{
+        width: 9%;
+        margin-left: 24%;
+    }
+    .container >div:nth-child(18) button{
+        position: absolute;
+        bottom: 23%;
+        margin-left: 19%;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    #content{
+        font-size: 2rem;
+        width: 101%;
+    }
+    .heading >div:nth-child(2){
+        width: 66%;
+    }
+    #content-one{
+        font-size: 2rem;
+    }
+    #content-one .content-header >div:nth-child(3){
+        width: 56%;
+    }
+    .border >div:nth-child(1) img{
+        width: 90%;
+    }
+    #content-two{
+        width: 48%;
+        margin-left: 25%;
+    }
+    #content-two .box >div:nth-child(1) img{
+        width: 83%;
+        margin-left: -31%;
+    }
+    #content-two .box >div:nth-child(2){
+        margin-top: -54%;
+        font-size: 4rem;
+        margin-left: -25%;
+    }
+    .box-one >div:nth-child(1) img{
+        margin-left: 16%;
+        width: 176%;
+        margin-top: -10%;
+    }
+    #content-two .box-one >div:nth-child(2){
+        margin-left: 28%;
+        font-size: 3rem;
+        margin-top: -48%;
+    }
+    .box-two >div:nth-child(1) img{
+        margin-top: 13%;
+        width: 176%;
+        margin-left: 16%;
+    }
+    #content-two .box-two >div:nth-child(2){
+        margin-top: -47%;
+        margin-left: 28%;
+        font-size: 3rem;
+    }
+    #content-three{
+        font-size: 3rem;
+    }
+    #imp .names div input{
+        padding: 6%;
+        width: 203%;
+        font-size: 2rem;
+        margin-left: -73%;
+    }
+    .email{
+        margin-right: 14%;
+    }
+    #imp .email div input{
+        padding: 6%;
+        width: 203%;
+        font-size: 2rem;
+        margin-left: 46%;
+    }
+    #imp .email >div:nth-child(3) input{
+        margin-top: 0.7%;
+        /* height: 9vh; */
+        width: 197.5%;
+        padding-top: 7%;
+        padding-bottom: 13%;
+        font-size: 1.8rem;
+        margin-left: 42%;
+    }
+    #footer{
+        width: 101%;
+    }
+    #footer .row{
+        margin-top: 8%;
+    }
+    .footer-text >div:nth-child(1){
+        font-size: 2rem;
+        width: 110%;
+    }
+    .footer-text >div:nth-child(2) img{
+        width: 70%;
+    }
+    .location img{
+        margin-top: -14%;
+    }
+    .location-text{
+        font-size: 2rem;
+        margin-top: -13.7%;
+    }
+    .mail-text{
+        font-size: 2rem;
+    }
+    #footer .row div img{
+        width: 170%;
+    }
+    
+}
+
+@media (max-width:1025px){
+    .container >div:nth-child(2) img{
+        margin-left: 61%;
+    }
+    .container{
+        width: 141.4%;
+    }
+    #content{
+        margin-top: 20%;
+        width: 144%;
+    }
+    
+    #content-one{
+        width: 141%;
+    }
+    .border >div:nth-child(1) img{
+        width: 90%;
+    }
+    
+    #content-two .boxes{
+        margin-top: -22%;
+        margin-left: 77%;
+    }
+    #content-two .box-one >div:nth-child(2){
+        margin-top: -93%;
+        font-size: 1.5rem;
+        margin-left: 10%;
+    }
+    #content-two .box-two{
+        margin-top: 66%;
+    }
+    #content-two .box-two >div:nth-child(2){
+        margin-top: -91%;
+        margin-left: 11%;
+    }
+    #content-two .box >div:nth-child(2){
+        margin-top: -44%;
+    }
+    #content-three{
+        width: 147%;
+    }
+    .footer-bg {
+        width: 144%;
+    }
+    .footer-text{
+        width: 67%;
+        margin-top: -37%;
+    }
+    .location img{
+        margin-top: -23.6%;
+        margin-left: 89%;
+    }
+    .location-text{
+        margin-top: -23%;
+        margin-left: 90%;
+        width: 23%;
+    }
+    .mail img{
+        margin-left: 89%;
+        margin-top: 2%;
+    }
+    .mail-text{
+        margin-top: 1.5%;
+        margin-left: 90%;
+    }
+    #footer .row{
+        margin-left: 114%;
+        margin-top: 16%;
+        width: 20%;
+    }
+}
+
+@media (max-width:1440px){
+    #content-two{
+        width: 84.6%;
+    }
+    #contain >div:nth-child(1) img{
+        width: 102.4%;
+    }
+    .border >div:nth-child(1) img{
+        width: 84%;
+    }
+    #footer{
+        width: 102%;
+    }
+}
+
+@media (max-width:768px){
+    #contain-image .image-two >div:nth-child(2){
+        margin-top: 6%;
+    }
+    #contain-image .image-three >div:nth-child(2){
+        margin-top: 6%;
+    }
+    #contain-image .image-one >div:nth-child(4) button {
+        width: 63%;
+        padding: 3%;
+        background-color: yellow;
+        border: none;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    #contain-image .image-two >div:nth-child(4) button {
+        width: 63%;
+        padding: 3%;
+        background-color: yellow;
+        border: none;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    #contain-image .image-three >div:nth-child(4) button {
+        width: 63%;
+        padding: 3%;
+        background-color: yellow;
+        border: none;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .container >div:nth-child(2) img{
+        margin-left: 64%;
+    }
+    #contain >div:nth-child(1) img{
+        width: 105%;
+    }
+    .container{
+        width: 205%;
+    }
+    #content{
+        width: 202%;
+        font-size: 1.5rem;
+    }
+    #content-one{
+        width: 210%;
+        font-size: 1.5rem;
+    }
+    #content-two{
+        width: 113%;
+        margin-left: 24%;
+        margin-top: 27%;
+    }
+    #content-three{
+        width: 206%;
+        font-size: 2rem;
+    }
+    #footer{
+        width: 146%;
+        font-size: 1.2rem;
+    }
+    .location img {
+        margin-top: -34%;
+        margin-left: 128%;
+        width: 3%;
+    }
+    .location-text{
+        width: 28%;
+        margin-left: 91%;
+    }
+    .mail img{
+        margin-left: 128%;
+        margin-top: 3%;
+        width: 3%;
+    }
+    .mail-text{
+        margin-top: 2%;
+        margin-left: 91%;
+    }
+    #imp .email >div:nth-child(3) input{
+        margin-top: 3%;
+    }
+    
+}
+
+@media (max-width:426px){
+    .container{
+        width: 281%;
+    }
+    .container >div:nth-child(3) img{
+        width: 22%;
+    }
+    .container >div:nth-child(2) img{
+        margin-left: 69%;
+    }
+    .container >div:nth-child(7) img{
+        margin-left: 60%;
+        width: 50%;
+    }
+    .container >div:nth-child(4) img{
+        margin-left: 93%;
+        width: 17%;
+    }
+    .container >div:nth-child(5) img{
+        width: 3%;
+        margin-left: 111%;
+    }
+    .container >div:nth-child(6) img{
+        display: none;
+    }
+    .container >div:nth-child(14) img{
+        margin-left: 11%;
+    }
+    .container >div:nth-child(17) img {
+        bottom: 9%;
+        margin-left: 110%;
+    }
+    .navbar-menu{
+        display: block;
+        margin-left: 36%;
+    }
+    .navbar-menu >div:nth-child(1){
+        position: absolute;
+        top: 13%;
+        margin-left: 73%;
+        font-size: 4rem;
+    }
+    .border >div:nth-child(1) img{
+        display: none;
+    }
+    
+    .border-one img{
+        display: block;
+        margin-left: 15%;
+        width: 71%;
+    }
+    #content-two .boxes{
+        margin-top: 40%;
+    }
+    #content-two .box-one >div:nth-child(2){
+        margin-left: -233%;
+        font-size: 4rem;
+        margin-top: -142%;
+    }
+    .box-two >div:nth-child(1) img{
+        margin-left: -276%;
+        margin-top: -15%;
+        width: 512%;
+    }
+    #content-two .box-two >div:nth-child(2){
+        font-size: 4rem;
+        margin-left: -233%;
+        margin-top: -136%;
+    }
+    .image-two{
+        margin-top: 14%;
+    }
+    .image-three{
+        margin-top: 14%;
+    }
+    .box-one >div:nth-child(1) img{
+        width: 512%;
+        margin-left: -277%;
+    }
+    #contain-image .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    #contain >div:nth-child(1) img{
+        display: none;
+    }
+    #contain-image{
+        margin-top: 1%;
+    }
+    .heading >div:nth-child(1) img{
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    .heading >div:nth-child(2) {
+        width: 98%;
+        margin-left: 5%;
+    }
+    .image-one >div:nth-child(1) img{
+        width: 223%;
+        margin-left: -48%;
+    }
+    #contain-image .image-one >div:nth-child(2) {
+        width: 216%;
+        margin-left: -40%;
+    }
+    #contain-image .image-one >div:nth-child(3){
+        width: 346%;
+        margin-left: -112%;
+    }
+    #contain-image .image-one >div:nth-child(4) button{
+        padding-top: 7%;
+        padding-bottom: 7%;
+        width: 113%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .image-two >div:nth-child(1) img{
+        width: 223%;
+        margin-left: -48%;
+        margin-top: 10%;
+    }
+    #contain-image .image-two >div:nth-child(2){
+        width: 216%;
+        margin-left: -40%;
+    }
+    #contain-image .image-two >div:nth-child(3){
+        width: 346%;
+        margin-left: -112%;
+    }
+    #contain-image .image-two >div:nth-child(4) button{
+        padding-top: 7%;
+        padding-bottom: 7%;
+        width: 113%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .image-three >div:nth-child(1) img{
+        width: 223%;
+        margin-left: -48%;
+        margin-top: 10%;
+    }
+    #contain-image .image-three >div:nth-child(2) {
+        width: 216%;
+        margin-left: -40%;
+    }
+    #contain-image .image-three >div:nth-child(3){
+        width: 346%;
+        margin-left: -112%;
+    }
+    #contain-image .image-three >div:nth-child(4) button{
+        padding-top: 7%;
+        padding-bottom: 7%;
+        width: 113%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .border-one{
+        display: block;
+    }
+
+
+    #content{
+        width: 325%;
+        font-size: 4rem;
+    }
+    #content-one{
+        width: 340%;
+        font-size: 4rem;
+    }
+    .content-header >div:nth-child(2) img{
+        width: 82%;
+    }
+    #content-one .content-header >div:nth-child(3){
+        width: 96%;
+        margin-left: 2%;
+    }
+    .border >div:nth-child(1) img {
+        width: 100%;
+    }
+    .box >div:nth-child(1) img{
+        width: 118%;
+        margin-left: 13%;
+    }
+    #content-two .box >div:nth-child(2){
+        margin-top: -79%;
+    margin-left: 23%;
+    font-size: 5rem;
+    }
+    #content-two{
+        width: 204%;
+    }
+    #content-three{
+        width: 342%;
+        font-size: 4rem;
+        margin-top: 140%;
+    }
+    .content-three-heading >div:nth-child(2) img{
+        width: 84%;
+    }
+    #imp .names div input {
+        font-size: 3rem;
+        margin-left: -30%;
+    }
+    .email{
+        margin-top: 9%;
+    }
+    #imp .email div input{
+        font-size: 3rem;
+        margin-left: -30%;
+
+    }
+    #imp .email >div:nth-child(3) input{
+        width: 184%;
+        margin-left: -28%;
+    /* padding: 12%; */
+        font-size: 4rem;
+        padding-top: 5%;
+        padding-bottom: 16%;
+    }
+    
+    #footer{
+        width: 236%;
+        font-size: 1.3rem;
+    }
+    .footer-bg{
+        height: 81vh;
+    }
+    .footer-text >div:nth-child(1){
+        font-size: 2rem;
+        width: 197%;
+        margin-left: 9%;
+        margin-top: 13%;
+    }
+    .footer-text >div:nth-child(2) img{
+        margin-top: 25%;
+        width: 100%;
+        margin-left: 9%;
+    }
+    #footer .row{
+        margin-top: 15%;
+    }
+
+
+    .location{
+        margin-top: 14%;
+        margin-left: -52%;
+    }
+    .location-text{
+        margin-top: -43%;
+        margin-left: 18%;
+        font-size: 2rem;
+        width: 77%;
+    }
+    .location img{
+        width: 8%;
+        margin-top: -103%;
+        margin-left: 150%;
+    }
+    .mail img{
+        width: 8%;
+        margin-left: 28%;
+        margin-top: 9%;
+    }
+    .mail-text{
+        margin-left: 18%;
+        font-size: 2rem;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width:376px){
+    .container{
+        width: 316%;
+    }
+    #footer{
+        width: 266%;
+    }
+    .location img{
+        margin-top: -115%;
+        margin-left: 167%;
+    }
+    #content-two{
+        width: 230%;
+    }
+    #content{
+        margin-left: 11%;
+    }
+    #contain-image .image-one >div:nth-child(2){
+        width: 232%;
+        margin-left: -50%;
+    }
+    #contain-image .image-two >div:nth-child(2){
+        width: 232%;
+        margin-left: -50%;
+    }
+    #contain-image .image-three >div:nth-child(2){
+        width: 232%;
+        margin-left: -50%;
+    }
+    #content-one{
+        margin-left: 17%;
+    }
+    #content-three{
+        margin-left: 17%;
+    }
+}
+
+@media (max-width:321px){
+    .container >div:nth-child(1) img{
+        width: 100%;
+    }
+    .container >div:nth-child(2) img{
+        width: 43%;
+        margin-left: 78%;
+        margin-top: 0.4%;
+    }
+    .container >div:nth-child(7) img{
+        width: 40%;
+    }
+    .container >div:nth-child(19) img{
+        margin-left: -13%;
+    }
+    .container >div:nth-child(14) img{
+        margin-left: 9%;
+    }
+    #contain-image .image-one >div:nth-child(2){
+        width: 271%;
+        margin-left: -71%;
+    }
+    #contain-image .image-two >div:nth-child(2){
+        width: 271%;
+        margin-left: -71%;
+    }
+    #contain-image .image-three >div:nth-child(2){
+        width: 271%;
+        margin-left: -71%;
+    }
+    #contain-image .image-one >div:nth-child(4) button{
+        width: 130%;
+        padding: 10%;
+    }
+    #contain-image .image-two>div:nth-child(4) button{
+        width: 130%;
+        padding: 10%;
+    }
+    #contain-image .image-three >div:nth-child(4) button{
+        width: 130%;
+        padding: 10%;
+    }
+    .footer-text >div:nth-child(2) img{
+        margin-top: 21%;
+    }
+    #footer .row{
+        margin-top: 13%;
+    }
+    
+    .border >div:nth-child(1) img{
+        width: 117%;
+    }
+    #content-two{
+        width: 271%;
+        margin-left:1%;
+    }
+    #imp .names div input{
+        width: 204%;
+        margin-left: -42%;
+    }
+    #imp .email div input {
+        font-size: 3rem;
+        margin-left: -38%;
+    }
+    #imp .email >div:nth-child(3) input{
+        margin-left: -35%;
+        padding-bottom: 20%;
+    }
+}
